@@ -1,12 +1,10 @@
 import React from "react"
-import { StarWars,Consoles,Diversos} from "../endpoints/produtos";
+import {listProdutosStarWars,listProdutosConsoles,listProdutosDiversos } from "../endpoints/listaProdutos"
 import controle from "../img/Logo/controle.png"
 
 
  const Home= () => {
-    const starWars = {StarWars}
-    const consoles  = {Consoles}
-    const diversos = {Diversos}
+
     return (
        <div>
             <header>
@@ -23,14 +21,16 @@ import controle from "../img/Logo/controle.png"
                 <main>
                     <h3>Star Wars</h3>
                     <div>
-                        
+                     {listProdutosStarWars}
                     </div>
                 </main>
                 <main>
                     <h3>Consoles</h3>
+                    {listProdutosConsoles}
                 </main>
                 <main>
                     <h3>Diversos</h3>
+                    {listProdutosDiversos}
                 </main>
 
             </section>
