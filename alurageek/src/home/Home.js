@@ -1,31 +1,34 @@
 import React from "react"
 import {listProdutosStarWars,listProdutosConsoles,listProdutosDiversos } from "../endpoints/listaProdutos"
 import controle from "../img/Logo/controle.png"
-import styled from "styled-components"
+import lupa from "../img/Logo/lupa.png"
+import { Button, ContaineGeral, Div, Nav, Span } from "./StyleHome"
 
  const Home= () => {
-    const Dasda = styled.h1`
-        color: ${props => props.theme.Themers.buttonsTitulos};
-    
-    `
+   
 
     return (
-       <div>
+       <ContaineGeral>
+            <Nav>
+              <Span>
+                <Div>
+                    <span>
+                        <img src={controle} alt="logo" />
+                        <h1> Alura<strong>Geek</strong></h1>
+                    </span>
+                    <div>
+                        <input type="text" placeholder="O que deseja encontrar?"/>
+                        <img src={lupa} alt="Lupa de pesquisa" />
+                    </div>
+                 </Div>
+                    <Button>Login</Button>
+              </Span>
+            </Nav>
             <header>
-                <div>
-                    <img src={controle} alt="logo" />
-                    <Dasda>
-                        AluraGeek
-                    </Dasda>
-                </div>
-                <input type="text" placeholder="Pesquisar"/>
-                <button>Login</button>
-            </header>
-            <section>
                 <h2>Dezembro Promocional</h2>
                 <p>Produtos selecionados com 33% de desconto</p>
                 <button>Ver Consoles</button>
-            </section>
+            </header>
             <section>
                 <main>
                     <h3>Star Wars</h3>
@@ -74,7 +77,7 @@ import styled from "styled-components"
             <footer> 
                 <p>Desenvolvido por Ernandes Bitencourt 2023</p>
             </footer>   
-       </div>
+       </ContaineGeral>
     )
 }
 
