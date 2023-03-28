@@ -2,7 +2,7 @@ import React from "react"
 import {listProdutosStarWars,listProdutosConsoles,listProdutosDiversos } from "../endpoints/listaProdutos"
 import controle from "../img/Logo/controle.png"
 import lupa from "../img/Logo/lupa.png"
-import { Button, ContaineGeral, Div, Nav, Span } from "./StyleHome"
+import { Button, ContaineGeral, Div, DivHeader, Header, Nav, Section, Span } from "./StyleHome"
 
  const Home= () => {
    
@@ -24,12 +24,14 @@ import { Button, ContaineGeral, Div, Nav, Span } from "./StyleHome"
                     <Button>Login</Button>
               </Span>
             </Nav>
-            <header>
-                <h2>Dezembro Promocional</h2>
-                <p>Produtos selecionados com 33% de desconto</p>
-                <button>Ver Consoles</button>
-            </header>
-            <section>
+            <Header>
+                <DivHeader>
+                    <h2>Dezembro Promocional</h2>
+                    <p>Produtos selecionados com 33% de desconto</p>
+                    <button>Ver Consoles</button>
+                </DivHeader>
+            </Header>
+            <Section>
                 <main>
                     <h3>Star Wars</h3>
                     <div>{listProdutosStarWars}</div>
@@ -43,7 +45,7 @@ import { Button, ContaineGeral, Div, Nav, Span } from "./StyleHome"
                     {listProdutosDiversos}
                 </main>
 
-            </section>
+            </Section>
             <section>
                 <main>
                         <div>
