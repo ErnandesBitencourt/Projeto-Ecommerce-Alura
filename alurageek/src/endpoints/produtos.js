@@ -1,4 +1,4 @@
-import React from "react";
+
 import caneca from "../img/starWars/caneca.png"
 import dackveider from "../img/starWars/dackveider.png"
 import babyVerde from "../img/starWars/babyVerde.png"

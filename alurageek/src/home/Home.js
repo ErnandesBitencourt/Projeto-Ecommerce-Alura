@@ -2,7 +2,8 @@ import React from "react"
 import {listProdutosStarWars,listProdutosConsoles,listProdutosDiversos } from "../endpoints/listaProdutos"
 import controle from "../img/Logo/controle.png"
 import lupa from "../img/Logo/lupa.png"
-import { Button, ContaineGeral, Div, DivHeader, Header, Nav, Section, Span } from "./StyleHome"
+import { Button, ButtonVerTudo, ContaineGeral, Div, DivHeader, H3, Header, Nav, Section, Span } from "./StyleHome"
+import seta from "../img/Logo/seta.png"
 
  const Home= () => {
    
@@ -33,16 +34,27 @@ import { Button, ContaineGeral, Div, DivHeader, Header, Nav, Section, Span } fro
             </Header>
             <Section>
                 <main>
-                    <h3>Star Wars</h3>
+                    <span>
+                        <H3>Star Wars</H3>
+                        <ButtonVerTudo>Ver tudo <img src={ seta } alt="seta esquerda" /> </ButtonVerTudo>
+                    </span>
                     <div>{listProdutosStarWars}</div>
                 </main>
                 <main>
-                    <h3>Consoles</h3>
-                    {listProdutosConsoles}
+                    <span>
+                        <H3>Consoles</H3>
+                        <ButtonVerTudo>Ver tudo <img src={ seta } alt="seta esquerda" /> </ButtonVerTudo>
+                    </span>
+                    
+                    <div>{listProdutosConsoles}</div>
                 </main>
                 <main>
-                    <h3>Diversos</h3>
-                    {listProdutosDiversos}
+                    <span>
+                        <H3>Diversos</H3>
+                        <ButtonVerTudo>Ver tudo <img src={ seta } alt="seta esquerda" /> </ButtonVerTudo>
+                    </span>
+                    
+                    <div>{listProdutosDiversos}</div>
                 </main>
 
             </Section>
