@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Button } from "../home/StyleHome";
 
 export const Container = styled.div`
 
@@ -14,8 +13,8 @@ export const Container = styled.div`
 
     img{ 
         margin-top: 10px;
-        width: 90%;
-        height: 160px;
+        width: 100%;
+        height: 170px;
         position: relative;
         top: 1px;
         
@@ -26,7 +25,7 @@ export const Container = styled.div`
 export const Span = styled.header`
          
         margin-bottom: 10px;
-        width: 90%;
+        width: 100%;
         height: 6em;
         display: flex;
         flex-wrap:nowrap;
@@ -37,7 +36,6 @@ export const Span = styled.header`
         position: relative;
         bottom: 4px;
         
-
 `;
 
 export const P1NomeProduto = styled.p`

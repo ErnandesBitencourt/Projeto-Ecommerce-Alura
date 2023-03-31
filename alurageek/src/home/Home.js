@@ -2,7 +2,7 @@ import React from "react"
 import {listProdutosStarWars,listProdutosConsoles,listProdutosDiversos } from "../endpoints/listaProdutos"
 import controle from "../img/Logo/controle.png"
 import lupa from "../img/Logo/lupa.png"
-import { Button, ButtonVerTudo, ContaineGeral, Div, DivHeader, H3, Header, Nav, Section, Span } from "./StyleHome"
+import { Button, ButtonForm, ButtonVerTudo, ContaineGeral, Div, DivForm, DivHeader, DivList, DivLogo, Footer, H3, Header, InputNome, LabelNome, Main2, Nav, Section, Section2, Span, SpanNome, SpanTextArea, Textarea } from "./StyleHome"
 import seta from "../img/Logo/seta.png"
 
  const Home= () => {
@@ -58,39 +58,39 @@ import seta from "../img/Logo/seta.png"
                 </main>
 
             </Section>
-            <section>
-                <main>
-                        <div>
+            <Section2>
+                <Main2>
+                        <DivLogo>
                             <img src= {controle} alt="Logo "  />
-                            <h4>AluraGeek</h4>
-                        </div>
-                        <div>
+                            <h4> Alura<strong>Geek</strong></h4>
+                        </DivLogo>
+                        <DivList>
                             <ul>
-                                <li>Qeum somos nós</li>
+                                <li>Quem somos nós</li>
                                 <li>Política de privacidade</li>
                                 <li>Programa fidelidade</li>
                                 <li>Nossas Lojas</li>
                                 <li>Quero ser franqueado</li>
                                 <li>Anuncie aqui</li>
                             </ul>
-                        </div>
-                        <div>
+                        </DivList>
+                        <DivForm>
                             <p>Fale conosco</p>
-                            <span>
-                                <label>Nome</label>
-                                <input type="text" required/>
-                            </span>
-                            <span>
-                                <label>Escreva sua mensagem</label>
-                            <textarea/>
-                            </span>
-                            <button>Enviar mensagem</button>
-                        </div>
-                    </main>
-            </section>
-            <footer> 
-                <p>Desenvolvido por Ernandes Bitencourt 2023</p>
-            </footer>   
+                            <SpanNome>
+                                <LabelNome>Nome</LabelNome>
+                                <InputNome type="text" required/>
+                            </SpanNome>
+                            <SpanTextArea>
+                                
+                            <Textarea type="text" required placeholder="Escreva sua mensagem" />
+                            </SpanTextArea>
+                            <ButtonForm>Enviar mensagem</ButtonForm>
+                        </DivForm>
+                    </Main2>
+            </Section2>
+            <Footer> 
+                <p>Desenvolvido por Ernandes Bitencourt  <strong> 2023</strong></p>
+            </Footer>   
        </ContaineGeral>
     )
 }

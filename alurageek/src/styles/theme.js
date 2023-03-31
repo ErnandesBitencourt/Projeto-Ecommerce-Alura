@@ -8,6 +8,7 @@ export const Themers =  {
     weightTextPesquisa: 400,
     textPromocao : " #FFFFFF",
     weightPromocao : 700,
+    borderInpurt:"#C8C8C8"
 };
 
 export default Themers;
