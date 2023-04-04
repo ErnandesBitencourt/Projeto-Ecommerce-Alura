@@ -3,6 +3,7 @@ import GlobalStyle from "./styles/stylesGlobal";
 import { ThemeProvider } from "styled-components";
 import Themers from "./styles/theme";
 import { Div } from "./styles/styledApp";
+import { Login } from "./login/Login";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <ThemeProvider theme = {{Themers}}>
       <GlobalStyle/>
       <Home/>
+      {/* <Login/> */}
     </ThemeProvider>
     
       

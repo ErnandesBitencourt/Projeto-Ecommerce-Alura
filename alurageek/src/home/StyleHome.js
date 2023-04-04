@@ -404,6 +404,7 @@ export const Textarea = styled.textarea`
     border-bottom: solid 1px ${props=>props.theme.Themers.borderInpurt};
     font-size: 16px;
     
+    
         font-family: 'Raleway', sans-serif;
         color:${props=>props.theme.Themers.textProdutosPrecos};
         font-weight:${props=>props.theme.Themers.weightTextPesquisa} ;
