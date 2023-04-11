@@ -16,10 +16,9 @@ export const Allprodutos = () =>{
     const novo = () => {
         return(setAllprodutos1([...allprodutos1, {img :" guriComOculos" ,
             nomeProduto: "NOVOPVOOOO" , 
-            preco : "R$ 930,00",}]));
-           
+            preco : "R$ 930,00",}]));     
         
-    }
+    };
 
 return(
     <>

@@ -1,29 +1,16 @@
 import React from "react";
 import { Button, ButtonForm, Div, DivForm, DivList, DivLogo, Footer, InputNome, LabelNome, Main2, Nav, Section2, Span, SpanNome, SpanTextArea, Textarea } from "../home/StyleHome";
 import controle from "../img/Logo/controle.png"
-import lupa from "../img/Logo/lupa.png"
+
 import { ButtonLogin, DivLogin, Inputs, Main, Section, SpanLogin } from "./StyledLogin";
+import { Forms } from "../componentes/forms/inputs";
 
 
 export const Login = () => { 
 
     return (
         <Section> 
-              <Nav>
-              <Span>
-                <Div>
-                    <span>
-                        <img src={controle} alt="logo" />
-                        <h1> Alura<strong>Geek</strong></h1>
-                    </span>
-                    <div>
-                        <input type="text" placeholder="O que deseja encontrar?"/>
-                        <img src={lupa} alt="Lupa de pesquisa" />
-                    </div>
-                 </Div>
-                    
-              </Span>
-            </Nav>
+            <Forms/>
             <Main>
                 <DivLogin> <h2>Iniciar Sessão</h2></DivLogin>
 

@@ -11,9 +11,9 @@ function App() {
    <Div>
     <ThemeProvider theme = {{Themers}}>
       <GlobalStyle/>
-      {/* <Home/> */}
+      <Home  />
       {/* <Login/> */}
-      <Allprodutos/>
+      {/* <Allprodutos/> */}
     </ThemeProvider>
     
       

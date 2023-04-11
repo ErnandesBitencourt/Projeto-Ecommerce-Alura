@@ -4,27 +4,16 @@ import controle from "../img/Logo/controle.png"
 import lupa from "../img/Logo/lupa.png"
 import { Button, ButtonForm, ButtonVerTudo, ContaineGeral, Div, DivForm, DivHeader, DivList, DivLogo, Footer, H3, Header, InputNome, LabelNome, Main2, Nav, Section, Section2, Span, SpanNome, SpanTextArea, Textarea } from "./StyleHome"
 import seta from "../img/Logo/seta.png"
+import { Navegador } from "../componentes/nav/Nav"
+
+
 
  const Home= () => {
    
 
     return (
        <ContaineGeral>
-            <Nav>
-              <Span>
-                <Div>
-                    <span>
-                        <img src={controle} alt="logo" />
-                        <h1> Alura<strong>Geek</strong></h1>
-                    </span>
-                    <div>
-                        <input type="text" placeholder="O que deseja encontrar?"/>
-                        <img src={lupa} alt="Lupa de pesquisa" />
-                    </div>
-                 </Div>
-                    <Button>Login</Button>
-              </Span>
-            </Nav>
+            <Navegador/>
             <Header>
                 <DivHeader>
                     <h2>Dezembro Promocional</h2>
