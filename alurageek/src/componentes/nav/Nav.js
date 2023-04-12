@@ -1,7 +1,8 @@
 import React from "react";
-import { Button, Div, Nav, Span } from "./StyledNav";
+import {Div, Nav, Span } from "./StyledNav";
 import lupa from "../../img/Logo/lupa.png"
 import controle from "../../img/Logo/controle.png"
+import { ButtonLoginNav } from "../buttons/buttonLoginNav/ButtonLoginNv";
 
 
 export const Navegador = () => { 
@@ -18,7 +19,7 @@ return (
               <img src={lupa} alt="Lupa de pesquisa" />
           </div>
        </Div>
-          <Button>Login</Button>
+          <ButtonLoginNav>Login</ButtonLoginNav>
     </Span>
   </Nav>
 )

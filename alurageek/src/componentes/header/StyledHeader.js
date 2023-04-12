@@ -1,3 +1,7 @@
+import styled from "styled-components";
+import promocoes1 from "../../img/promocoes/promocoes1.png"
+
+const imgPromocao = promocoes1
 export const Header = styled.header`
     width: 100%;
     height: 22em;
