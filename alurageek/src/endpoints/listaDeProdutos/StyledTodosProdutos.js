@@ -1,30 +1,26 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
 
+export const Main =  styled.main ` 
     width: 100%;
-    height: 100%;
+    max-width: 10em;
+    height: 17em ;
     display: flex;
     flex-direction: column;
-    flex:1,1;
-   
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
     
 
-
-    img{ 
-        margin-top: 10px;
-        width: 100%;
-        height: 170px;
-        position: relative;
-        top: 1px;
-        
-    }
-
+`;
+export const Img =  styled.img`
+    width: 100%;
+    height: 10em;
 
 `;
-export const Span = styled.header`
+
+export const Span = styled.span`
          
-        margin-bottom: 10px;
         width: 100%;
         height: 6em;
         display: flex;
@@ -33,12 +29,12 @@ export const Span = styled.header`
         align-items: flex-start;
         justify-content: space-around;
         flex: 1,1;
-        position: relative;
-        bottom: 4px;
+        padding: 5px;
+        box-sizing: border-box;
         
 `;
 
-export const P1NomeProduto = styled.p`
+export const H4  = styled.h4`
         position: relative;
         bottom:  5px;
         font-size: 14px;
@@ -46,7 +42,7 @@ export const P1NomeProduto = styled.p`
         
 `;
 
-export const P2PrecoProduto = styled.p`
+export const P = styled.p`
         position: relative;
         bottom:  25px;
         font-style: normal;
@@ -56,7 +52,7 @@ export const P2PrecoProduto = styled.p`
         color: ${props=>props.theme.Themers.textProdutosPrecos};
 `;
 
-export const ButtonVerProduto = styled.a`
+export const ButtonVerProdutos = styled.a`
        
         position: relative;
         bottom:  28px;

@@ -1,5 +1,5 @@
 import { ListaDeProdutos5 } from "../../endpoints/listaDeProdutos/listaProdutos"
-import { Consoles, Diversos, StarWars } from "../../endpoints/produtos"
+import {  Producti } from "../../endpoints/produtos"
 import { ButtonVerTudo, H3, Section } from "./StyledSection1"
 import seta from "../../img/Logo/seta.png"
 
@@ -9,10 +9,10 @@ export const Section1 = () => {
                 <main>
 
                     <span>
-                        <H3>Star Wars</H3>
+                         <H3>Star Wars</H3>
                         <ButtonVerTudo>Ver tudo <img src={ seta } alt="seta esquerda" /> </ButtonVerTudo>
                     </span>
-                    <div><ListaDeProdutos5 produtos={StarWars}/></div>
+                    <div><ListaDeProdutos5 produtos={Producti.filter(produtos => produtos.setor==="StarWars")} /></div>
                 </main>
                 <main>
                     <span>
@@ -20,7 +20,7 @@ export const Section1 = () => {
                         <ButtonVerTudo>Ver tudo <img src={ seta } alt="seta esquerda" /> </ButtonVerTudo>
                     </span>
                     
-                    <div><ListaDeProdutos5 produtos={Consoles}/></div>
+                    <div><ListaDeProdutos5 produtos={Producti.filter(produtos => produtos.setor==="Consoles")}/></div>
                     
                 </main>
                 <main>
@@ -29,7 +29,7 @@ export const Section1 = () => {
                         <ButtonVerTudo>Ver tudo <img src={ seta } alt="seta esquerda" /> </ButtonVerTudo>
                     </span>
                     
-                    <div><ListaDeProdutos5 produtos={Diversos}/></div>
+                    <div><ListaDeProdutos5 produtos={Producti.filter(produtos => produtos.setor==="Diversos")}/></div>
                 </main>
 
             </Section>

@@ -8,8 +8,8 @@ export const ListaDeProdutos5= (props) => {
 
     return (
         <>
-             {
-                 props.produtos.map((lista)=>{
+            {
+             props.produtos.map((lista)=>{
                     return (
                         <Container key={lista.nomeProduto}>
                             <img src={lista.img} alt="foto do produto" />
@@ -20,7 +20,7 @@ export const ListaDeProdutos5= (props) => {
                                 </Span>
                         </Container>
                         )
-                    })
+                })
              }
     
         </>
