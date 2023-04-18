@@ -12,14 +12,3 @@ export const Inputs = (props) => {
 };
 
 
-export const InputAddProdutos = (props) => {
-
-    return(
-        <div>
-            <label>{props.label}</label>
-            <input type={props.type} placeholder={props.placeholder}/>
-        </div>
-
-    )
-
-};

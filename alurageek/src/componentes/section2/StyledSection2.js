@@ -19,8 +19,7 @@ export const Main2 = styled.main`
     display: flex;
     justify-content: center;
     gap:1.5em;
-    
-   
+
 
 `;
 

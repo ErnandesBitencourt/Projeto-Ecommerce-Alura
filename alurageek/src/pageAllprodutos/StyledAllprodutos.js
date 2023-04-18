@@ -22,7 +22,6 @@ export const Main = styled.main`
     flex-wrap: wrap;
     padding: 4em;
     box-sizing:border-box;
-   
     gap:  1em;
 
 `;
