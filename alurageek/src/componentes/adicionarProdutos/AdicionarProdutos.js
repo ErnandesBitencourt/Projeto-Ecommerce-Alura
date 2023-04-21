@@ -13,7 +13,7 @@ export const AdicionarProdutos = () => {
 
     return(
         <Container>
-            <Navegador/>
+            <Navegador nome={"Menu administrador"} />
               <Form>
                 <H3>Adicionar novo produto</H3>
                 <InputAddProdutos label={"URL da imagem"} type={"text"}  />
@@ -22,9 +22,6 @@ export const AdicionarProdutos = () => {
                 <InputAddProdutos label={"Preço do produto"} type={"text"}/>
                 <InputDescricao label={"Descrição do produto"} type={"text"}/>
                 <ButtonAdd />
-          
-
-                
              </Form>  
              <Section2/>    
             <Footer2/>

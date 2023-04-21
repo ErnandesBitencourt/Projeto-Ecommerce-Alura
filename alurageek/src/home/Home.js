@@ -13,7 +13,7 @@ import { Footer2 } from "../componentes/footer/Footer"
 
     return (
        <ContaineGeral>
-            <Navegador/>
+            <Navegador nome={"Login"} />
             <Headers/>
             <Section1/>
             <Section2/>

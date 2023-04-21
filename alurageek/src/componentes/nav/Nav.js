@@ -5,10 +5,13 @@ import controle from "../../img/Logo/controle.png"
 import { ButtonLoginNav } from "../buttons/buttonLoginNav/ButtonLoginNv";
 
 
-export const Navegador = () => { 
+
+
+export const Navegador = ({nome}) => { 
+ 
 return (
     <Nav>
-    <Span>
+    <Span >
       <Div>
           <span>
               <img src={controle} alt="logo" />
@@ -19,9 +22,12 @@ return (
               <img src={lupa} alt="Lupa de pesquisa" />
           </div>
        </Div>
-          <ButtonLoginNav>Login</ButtonLoginNav>
+        <ButtonLoginNav nome = {nome}  /> 
+
+         
     </Span>
   </Nav>
 )
+
 
 }
