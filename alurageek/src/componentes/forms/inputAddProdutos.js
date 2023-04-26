@@ -3,24 +3,24 @@ import { ContainerInput, ContainerInputDescricao, Input2, Input3, Label, Label2 
 
 
 
-export const InputAddProdutos = ({label ,type }) => {
+export const InputAddProdutos = ({label ,type, valor , onchage }) => {
 
     return(
         <ContainerInput>
             <Label>{label}</Label>
-            <Input2  required type={type} />
+            <Input2  required value={valor} onChange={onchage}  type={type} />
         </ContainerInput>
 
     )
 
 };
 
-export const InputDescricao = ({label ,type }) => {
+export const InputDescricao = ({label ,type ,valor , onchage}) => {
 
     return(
         <ContainerInputDescricao>
             <Label2>{label}</Label2>
-            <Input3  required type={type} />
+            <Input3   value={valor} onChange={onchage} required type={type} />
         </ContainerInputDescricao>
 
     )

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Button } from "../componentes/buttons/buttonLogin/StyledButtonLogin";
+
 
 
 export const ContaineGeral = styled.div`
@@ -33,6 +33,7 @@ export const SpanH3Button = styled.span`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
    
 
 `;
@@ -50,6 +51,7 @@ export const ButtoAdcionarProdutos = styled.button`
     padding: 5px;
     box-sizing: border-box;
     font-size: 15px;
+    cursor: pointer;
 
 
 `;

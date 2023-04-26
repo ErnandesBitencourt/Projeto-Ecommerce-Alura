@@ -32,3 +32,4 @@ export const H3 =  styled.h3`
     font-weight: ${props => props.theme.Themers.weightVerProdutosPrecos};
     color: ${props => props.theme.Themers.textProdutosPrecos};
 `;
+

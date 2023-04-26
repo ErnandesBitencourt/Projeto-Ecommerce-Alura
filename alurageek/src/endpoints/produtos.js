@@ -21,43 +21,50 @@ import picachu from "../img/diversos/picachu.png"
 
 
 
+
 export const Producti = [ 
     { 
         img : caneca ,
         nomeProduto: "Caneca" , 
         preco : "R$ 60,00",
-        setor: "StarWars"
+        setor: "StarWars",
+        descricao : ""
     },
      { 
         img :dackveider ,
         nomeProduto: "Boneco darth Vader" , 
         preco : "R$ 80,00",
-        setor: "StarWars"
+        setor: "StarWars",
+        descricao : ""
     },
     { 
         img :velhoVerde,
         nomeProduto: "Boneco Yoda" , 
         preco : "R$ 100,00",
-        setor: "StarWars"
+        setor: "StarWars",
+        descricao : ""
     },
     { 
         img :soldadeBranco,
         nomeProduto: "Soldade star wars" , 
         preco : "R$ 110,00",
-        setor: "StarWars"
+        setor: "StarWars",
+        descricao : ""
     },
     { 
         img :babyVerde,
         nomeProduto: "Baby yoda" , 
         preco : "R$ 130,00",
-        setor: "StarWars"
+        setor: "StarWars",
+        descricao : ""
     },
    
     { 
             img : darckPreto,
             nomeProduto: "Darth Vader grande" , 
             preco : "R$ 180,00",
-            setor: "StarWars"
+            setor: "StarWars",
+            descricao : ""
     },
 
 
@@ -65,74 +72,86 @@ export const Producti = [
         img :controleConsole ,
         nomeProduto: "Controle Xbox" , 
         preco : "R$ 100,00",
-        setor: "Consoles"
+        setor: "Consoles",
+        descricao : ""
     },
      { 
         img :ps5,
         nomeProduto: "console ps5" , 
         preco : "R$ 4.000,00",
-        setor: "Consoles"
+        setor: "Consoles",
+        descricao : ""
     },
      { 
         img : nintendoAntigo,
         nomeProduto: "console nintendo" , 
         preco : "R$ 1.000,00",
-        setor: "Consoles"
+        setor: "Consoles",
+        descricao : ""
     },
      { 
         img :controleNinTendoModerno ,
         nomeProduto: "Contole nintendo" , 
         preco : "R$ 500,00",
-        setor: "Consoles"
+        setor: "Consoles",
+        descricao : ""
     },
     { 
         img :xbox ,
         nomeProduto: "Console Xbox " , 
         preco : "R$ 2.530,00",
-        setor: "Consoles"
+        setor: "Consoles",
+        descricao : ""
     },
      { 
         img :gameBoy ,
         nomeProduto: "Game Boy Color" , 
         preco : "R$ 130,00",
-        setor: "Consoles"
+        setor: "Consoles",
+        descricao : ""
     },
 
     { 
         img :china,
         nomeProduto: "Logo da China" , 
         preco : "R$ 60,00",
-        setor: "Diversos"
+        setor: "Diversos",
+        descricao : ""
     },
     { 
         img : MeninoControle,
         nomeProduto: "Controle bluetooth " , 
         preco : "R$ 150,00",
-        setor: "Diversos"
+        setor: "Diversos",
+        descricao : ""
     },
     { 
         img : BonecoSonic ,
         nomeProduto: "Boneco Sonic" , 
         preco : "R$ 110,00",
-        setor: "Diversos"
+        setor: "Diversos",
+        descricao : ""
     },
     { 
         img : radio ,
         nomeProduto: "Radio color" , 
         preco : "R$ 150,00",
-        setor: "Diversos"
+        setor: "Diversos",
+        descricao : ""
     },
      { 
         img : guriComOculos ,
         nomeProduto: "Óculos virtual game" , 
         preco : "R$ 930,00",
-        setor: "Diversos"
+        setor: "Diversos",
+        descricao : ""
     },
      { 
         img : picachu,
         nomeProduto: "Boneco Pikachu" , 
         preco : "R$ 730,00",
-        setor: "Diversos"
+        setor: "Diversos",
+        descricao : ""
     }
    
     

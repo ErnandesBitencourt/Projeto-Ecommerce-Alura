@@ -14,7 +14,7 @@ export const RouterPages = () => {
           <Route index element = {<Home/>} />
           <Route path="/allProdutos" element ={<Allprodutos/> }/>
           <Route path="/login" element ={<Login  />} />
-          <Route path="/adcionarProdutos" element ={<AdicionarProdutos/> }/>
+          <Route path="/adcProdutos" element ={<AdicionarProdutos/> }/>
           <Route path="/*" element = { <div><h1>Pagina não encontrada</h1></div>} />
         </Routes>
       </BrowserRouter>

@@ -10,7 +10,7 @@ export const ContainerButtonadd = styled.div`
     justify-content: center;
 `
 
-export const Buttonadd = styled.div`
+export const Buttonadd = styled.button`
     width: 100%;
     height: 100% ;
     padding: 1em;

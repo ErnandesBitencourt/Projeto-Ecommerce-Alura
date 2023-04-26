@@ -11,5 +11,5 @@ export const loginPage = (navigate) => {
 };
 
 export const addProdutosPage = (navigate) => { 
-    return navigate("/adicionarprodutos")
+    return navigate("/adcProdutos")
 }

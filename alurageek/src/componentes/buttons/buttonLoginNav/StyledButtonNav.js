@@ -7,7 +7,7 @@ export const ButtonNav =  styled.button`
     color: ${props=>props.theme.Themers.buttonsTitulos};
     font-weight: ${props=>props.theme.Themers.weightText};
     cursor: pointer;
-    display: none;
+   
     display: ${props => props.nome === true ? "none" : "block"};
     
     :hover {
