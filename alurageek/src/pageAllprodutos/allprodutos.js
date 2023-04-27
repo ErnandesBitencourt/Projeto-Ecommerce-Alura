@@ -1,5 +1,4 @@
 import React from "react";
-import { Producti} from "../endpoints/produtos"
 import { ButtoAdcionarProdutos, ContaineGeral, Div, H3, Main, SpanH3Button } from "./StyledAllprodutos";
 import { Navegador } from "../componentes/nav/Nav";
 import { Section2 } from "../componentes/section2/Section2";
@@ -9,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { addProdutosPage } from "../routes/coordenador";
  
 
-export const Allprodutos = () =>{ 
+export const Allprodutos = ({allprodutos1}) =>{ 
 
     const navigate = useNavigate()
 
@@ -24,7 +23,7 @@ return(
                 <ButtoAdcionarProdutos onClick={()=> addProdutosPage(navigate)}  >Adicionar produto</ButtoAdcionarProdutos>
             </SpanH3Button>
             <Div>
-                <TodosOsProdutos allprodutos={Producti} />
+                <TodosOsProdutos allprodutos={allprodutos1} />
             </Div>
         </Main>
         <Section2/>

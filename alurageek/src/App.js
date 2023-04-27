@@ -5,9 +5,9 @@ import Themers from "./styles/theme";
 import { Div } from "./styles/styledApp";
 import { RouterPages } from "./routes/Router";
 
-
-
 function App() {
+
+
   return (
    <Div>
     <GlobalStyle/>
